@@ -44,11 +44,11 @@ export default function Home() {
             <div className="mb-6">
               <h3 className="text-lg font-semibold mb-3 text-[#00ff88]">## なぜ作ったか</h3>
               <div className="code-block mb-4">
-                <div className="text-[#888888] mb-2">// 課題の定義</div>
+                <div className="text-[#888888] mb-2">{/* 課題の定義 */}</div>
                 <div>const problem = {`{`}</div>
-                <div className="ml-4">issue: "カラオケにない曲を歌いたい",</div>
-                <div className="ml-4">existing_solutions: ["諦める", "楽器演奏", "アカペラ"],</div>
-                <div className="ml-4">satisfaction: "低い"</div>
+                <div className="ml-4">issue: &quot;カラオケにない曲を歌いたい&quot;,</div>
+                <div className="ml-4">existing_solutions: [&quot;諦める&quot;, &quot;楽器演奏&quot;, &quot;アカペラ&quot;],</div>
+                <div className="ml-4">satisfaction: &quot;低い&quot;</div>
                 <div>{`};`}</div>
               </div>
             </div>
@@ -92,12 +92,12 @@ export default function Home() {
             <div className="mb-6">
               <h3 className="text-lg font-semibold mb-3 text-[#00ff88]">## クラウドファンディング × 自作PC</h3>
               <div className="code-block">
-                <div className="text-[#888888] mb-2">// 計算資源の確保</div>
+                <div className="text-[#888888] mb-2">{/* 計算資源の確保 */}</div>
                 <div>const hardwareSpecs = {`{`}</div>
-                <div className="ml-4">funding: "クラウドファンディング活用",</div>
-                <div className="ml-4">cpu: "AMD Ryzen 9 7950X",</div>
-                <div className="ml-4">gpu: "NVIDIA RTX 4090",</div>
-                <div className="ml-4">purpose: "DEMUCS高速処理"</div>
+                <div className="ml-4">funding: &quot;クラウドファンディング活用&quot;,</div>
+                <div className="ml-4">cpu: &quot;AMD Ryzen 9 7950X&quot;,</div>
+                <div className="ml-4">gpu: &quot;NVIDIA RTX 4090&quot;,</div>
+                <div className="ml-4">purpose: &quot;DEMUCS高速処理&quot;</div>
                 <div>{`};`}</div>
               </div>
             </div>
@@ -177,16 +177,16 @@ export default function Home() {
             <div className="code-block">
               <div>{`{`}</div>
               <div className="ml-4">"current_role": {`{`}</div>
-              <div className="ml-8">"position": "Software Engineer",</div>
-              <div className="ml-8">"focus": "レガシーシステムマイグレーション",</div>
-              <div className="ml-8">"tech_stack": ["Struts", "Spring", "Java", "Modernization"]</div>
+              <div className="ml-8">&quot;position&quot;: &quot;Software Engineer&quot;,</div>
+              <div className="ml-8">&quot;focus&quot;: &quot;レガシーシステムマイグレーション&quot;,</div>
+              <div className="ml-8">&quot;tech_stack&quot;: [&quot;Struts&quot;, &quot;Spring&quot;, &quot;Java&quot;, &quot;Modernization&quot;]</div>
               <div className="ml-4">{`},`}</div>
               <div className="ml-4">"interests": {`{`}</div>
-              <div className="ml-8">"music": "作曲・演奏・音響技術",</div>
-              <div className="ml-8">"wine": "テイスティング・ペアリング",</div>
-              <div className="ml-8">"coffee": "サードウェーブ・抽出技術"</div>
+              <div className="ml-8">&quot;music&quot;: &quot;作曲・演奏・音響技術&quot;,</div>
+              <div className="ml-8">&quot;wine&quot;: &quot;テイスティング・ペアリング&quot;,</div>
+              <div className="ml-8">&quot;coffee&quot;: &quot;サードウェーブ・抽出技術&quot;</div>
               <div className="ml-4">{`},`}</div>
-              <div className="ml-4">"philosophy": "技術で個人の課題を解決し、それが社会の価値に繋がる"</div>
+              <div className="ml-4">&quot;philosophy&quot;: &quot;技術で個人の課題を解決し、それが社会の価値に繋がる&quot;</div>
               <div>{`}`}</div>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="text-center text-[#888888] text-sm">
           <div className="section-divider"></div>
-          <p>$ echo "ありがとうございました" | cowsay</p>
+          <p>$ echo &quot;ありがとうございました&quot; | cowsay</p>
           <div className="code-block inline-block mt-4 text-left">
             <pre>{`
  _________________
