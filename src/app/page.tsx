@@ -176,12 +176,12 @@ export default function Home() {
             
             <div className="code-block">
               <div>{`{`}</div>
-              <div className="ml-4">"current_role": {`{`}</div>
+              <div className="ml-4">&quot;current_role&quot;: {`{`}</div>
               <div className="ml-8">&quot;position&quot;: &quot;Software Engineer&quot;,</div>
               <div className="ml-8">&quot;focus&quot;: &quot;レガシーシステムマイグレーション&quot;,</div>
               <div className="ml-8">&quot;tech_stack&quot;: [&quot;Struts&quot;, &quot;Spring&quot;, &quot;Java&quot;, &quot;Modernization&quot;]</div>
               <div className="ml-4">{`},`}</div>
-              <div className="ml-4">"interests": {`{`}</div>
+              <div className="ml-4">&quot;interests&quot;: {`{`}</div>
               <div className="ml-8">&quot;music&quot;: &quot;作曲・演奏・音響技術&quot;,</div>
               <div className="ml-8">&quot;wine&quot;: &quot;テイスティング・ペアリング&quot;,</div>
               <div className="ml-8">&quot;coffee&quot;: &quot;サードウェーブ・抽出技術&quot;</div>
