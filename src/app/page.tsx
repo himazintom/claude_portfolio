@@ -91,7 +91,7 @@ export default function Home() {
 
             <div className="mb-6">
               <h3 className="text-lg font-semibold mb-3 text-[#00ff88]">## クラウドファンディング × 自作PC</h3>
-              <div className="code-block">
+              <div className="code-block mb-4">
                 <div className="text-[#888888] mb-2">{/* 計算資源の確保 */}</div>
                 <div>const hardwareSpecs = {`{`}</div>
                 <div className="ml-4">funding: &quot;クラウドファンディング活用&quot;,</div>
@@ -99,6 +99,21 @@ export default function Home() {
                 <div className="ml-4">gpu: &quot;NVIDIA RTX 4090&quot;,</div>
                 <div className="ml-4">purpose: &quot;DEMUCS高速処理&quot;</div>
                 <div>{`};`}</div>
+              </div>
+              <div className="terminal-border p-4">
+                <div className="text-[#888888] text-sm mb-2">クラウドファンディングプロジェクト</div>
+                <a 
+                  href="https://camp-fire.jp/projects/720269/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-[#00aaff] hover:text-[#00ff88] transition-colors"
+                >
+                  <span>🔥</span>
+                  CAMPFIRE プロジェクトページ
+                </a>
+                <p className="text-[#888888] text-xs mt-2">
+                  音楽制作用高性能PC構築のためのクラウドファンディング
+                </p>
               </div>
             </div>
 
