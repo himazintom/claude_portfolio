@@ -106,20 +106,40 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-3 text-[#00ff88]">## デモ・リンク</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="terminal-border p-4">
-                  <div className="text-[#888888] text-sm mb-2">デモ動画スペース</div>
-                  <div className="bg-[#111111] h-32 rounded flex items-center justify-center text-[#888888]">
-                    [Video Player Area]
+                  <div className="text-[#888888] text-sm mb-2">カラオケサイト デモ動画</div>
+                  <div className="relative w-full h-32 bg-[#111111] rounded overflow-hidden">
+                    <iframe
+                      src="https://www.youtube.com/embed/az5n7XAMYZe"
+                      title="カラオケサイト デモ"
+                      className="w-full h-full"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
                   </div>
                 </div>
                 <div className="terminal-border p-4">
-                  <div className="text-[#888888] text-sm mb-2">ソースコード</div>
-                  <a 
-                    href="#" 
-                    className="inline-flex items-center gap-2 text-[#00aaff] hover:text-[#00ff88] transition-colors"
-                  >
-                    <span>📁</span>
-                    GitHub Repository
-                  </a>
+                  <div className="text-[#888888] text-sm mb-4">ソースコード</div>
+                  <div className="space-y-3">
+                    <a 
+                      href="https://github.com/himazintom/karaoke-site"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-[#00aaff] hover:text-[#00ff88] transition-colors"
+                    >
+                      <span>📁</span>
+                      カラオケサイト Repository
+                    </a>
+                    <a 
+                      href="https://github.com/himazintom"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-[#888888] hover:text-[#00ff88] transition-colors text-sm"
+                    >
+                      <span>👤</span>
+                      GitHub Profile
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -141,7 +161,16 @@ export default function Home() {
               <p className="text-[#888888] text-sm mb-3">
                 カメラを活用したインタラクティブゲーム体験
               </p>
-              <div className="text-xs text-[#888888]">Unity, C#, Computer Vision</div>
+              <div className="text-xs text-[#888888] mb-3">Unity, C#, Computer Vision</div>
+              <a 
+                href="https://github.com/himazintom/unity-camera-game"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[#00aaff] hover:text-[#00ff88] transition-colors text-xs"
+              >
+                <span>📁</span>
+                Repository
+              </a>
             </div>
             
             <div className="terminal-border p-6">
@@ -149,7 +178,16 @@ export default function Home() {
               <p className="text-[#888888] text-sm mb-3">
                 没入感重視の3Dホラーゲーム
               </p>
-              <div className="text-xs text-[#888888]">Unity, 3D Modeling, Audio Design</div>
+              <div className="text-xs text-[#888888] mb-3">Unity, 3D Modeling, Audio Design</div>
+              <a 
+                href="https://github.com/himazintom/3d-horror-game"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[#00aaff] hover:text-[#00ff88] transition-colors text-xs"
+              >
+                <span>📁</span>
+                Repository
+              </a>
             </div>
             
             <div className="terminal-border p-6">
@@ -157,7 +195,16 @@ export default function Home() {
               <p className="text-[#888888] text-sm mb-3">
                 HSPで作成したクラシック2Dアクション
               </p>
-              <div className="text-xs text-[#888888]">HSP, 2D Graphics, Game Logic</div>
+              <div className="text-xs text-[#888888] mb-3">HSP, 2D Graphics, Game Logic</div>
+              <a 
+                href="https://github.com/himazintom/2d-action-game"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[#00aaff] hover:text-[#00ff88] transition-colors text-xs"
+              >
+                <span>📁</span>
+                Repository
+              </a>
             </div>
           </div>
         </section>
