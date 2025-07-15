@@ -195,18 +195,18 @@ export default function Home() {
         {/* Footer */}
         <footer className="text-center text-[#888888] text-sm">
           <div className="section-divider"></div>
-          <p>$ echo &quot;ありがとうございました&quot; | cowsay</p>
-          <div className="code-block inline-block mt-4 text-left">
-            <pre>{`
- _________________
-< ありがとうございました >
- -----------------
-        \\   ^__^
-         \\  (oo)\\_______
-            (__)\\       )\\/\\
-                ||----w |
-                ||     ||
-            `}</pre>
+          <p>$ echo &quot;ありがとうございました&quot;</p>
+          <div className="mt-6 flex flex-col items-center gap-4">
+            <div className="terminal-border p-4">
+              <img 
+                src="/singing_farm2.jpeg" 
+                alt="Profile" 
+                className="w-24 h-24 rounded-full object-cover border-2 border-[#00ff88]"
+              />
+            </div>
+            <div className="code-block text-center">
+              <div className="text-[#00ff88]">ありがとうございました</div>
+            </div>
           </div>
         </footer>
 
